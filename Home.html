@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website using HTML CSS | Manaye Bishaw</title>
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="animated">
+        <div class="logo">
+        <img
+         
+          src="logo.png"
+          rel="stylesheet"
+          width="50"
+          height="50"
+          alt="Manaye Bishaw Logo"
+        />
+        </div>
+        <nav class="navbar">
+          <a href="Home.html" class="active">Home</a>
+          <a href="About.html">About</a>
+          <a href="service.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+      <section class="home animated">
+        <div class="home-content">
+          <h3>Hello, I'm</h3>
+          <h1>Manaye Bishaw</h1>
+          <h4>Web Developer</h4>
+          <p>
+            I am a web developer. I create professional websites. I love to do
+            work with dedication.
+          </p>
+          <div class="social-box">
+            <a
+              href="manaye`s cv.png"
+              class="btn"
+              download
+              aria-label="Download Manaye Bishaw's CV"
+            >
+              <i class="fas fa-download"></i> Download CV</a
+            >
+            <div class="social-links">
+              <a href="https://www.fb.com/l/6lp1kJRRR"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://t.me/Manabishaw"
+                ><i class="fa-brands fa-telegram"></i
+              ></a>
+              <a href="https://youtube.com/manayebishaw"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://github.com/manayebishaw-wq"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="home-img">
+          <div class="img-box">
+            <img src="manaye.png" alt="Manaye Bishaw" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <script>
+
+        document.querySelector(".btn").addEventListener("click", function () {
+          alert("Downloading CV...");
+          // Optional: Track download event (e.g., with Google Analytics)
+        });
+    </script>
+  </body>
+</html>
